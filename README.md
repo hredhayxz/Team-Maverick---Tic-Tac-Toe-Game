@@ -1,0 +1,2 @@
+# Team-Maverick---Tic-Tac-Toe-Game
+This project reimagines the timeless Tic Tac Toe game with modern features to deliver a more  engaging and interactive experience. Built using the C programming language, the game  maintains the traditional 3x3 grid while introducing enhancements such as single-player mode  against a computer opponent, real-time score tracking, move timers, and immersive sound  effects. These additions aim to create a fast-paced and dynamic gameplay environment suitable  for all age groups. 
