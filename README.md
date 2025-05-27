@@ -8,6 +8,10 @@ Players can choose to play against each other or against a computer opponent, wi
 
 ---
 
+## Presentation: [Here](https://presenti.ai/app/editor/_KN_CC_DXjM98QEXZvUHEQ)
+
+---
+
 ## Features
 
 * ✅ **Console-Based Gameplay**: Full-featured terminal game with a 3x3 grid.
