@@ -1,107 +1,132 @@
 # Team-Maverick---Tic-Tac-Toe-Game
 
-Enhanced Console-Based Tic Tac Toe Game
+## Overview
 
-Project Overview
-This project reimagines the classic Tic Tac Toe game, built using C++ to deliver an engaging and interactive console-based experience. The game retains the traditional 3x3 grid while introducing modern features such as single-player mode against a computer opponent, real-time score tracking, move timers, and immersive sound effects (where supported). These enhancements create a dynamic and fast-paced gameplay environment suitable for players of all ages.
-Players can compete against each other or challenge a computer opponent. A scoreboard tracks wins, losses, and draws across multiple rounds, while time-limited turns add urgency and excitement. The project combines classic game mechanics with modern features to provide a stimulating and enjoyable experience.
-Features
+An enhanced console-based Tic Tac Toe game built using **C++**, combining classic game mechanics with modern features such as **single-player AI**, **real-time score tracking**, **move timers**, and **sound effects** (where supported). It provides a fast-paced, engaging experience suitable for all ages.
 
-Console-Based Gameplay: A fully functional Tic Tac Toe game running in a terminal/command-line interface.
-Single and Multiplayer Modes: Play against another player or a computer opponent with basic AI logic.
-Real-Time Score Tracking: Records wins, losses, and draws across multiple rounds.
-Move Timer: Introduces time-limited turns to add urgency and excitement.
-Sound Effects: Enhances immersion with auditory feedback (where supported).
-Error Handling: Robust validation of user inputs and graceful handling of edge cases.
-Intuitive UI: A clear text-based interface to display the game board, prompts, and status updates.
+Players can choose to play against each other or against a computer opponent, with scores maintained over multiple rounds and each move timed for added excitement.
 
-Technical Details
+---
 
-Programming Language: C++
-Compiler: GCC
-IDE: Visual Studio Code or Code::Blocks
-Version Control: Git
-Dependencies: Standard C++ libraries; no external dependencies required.
+## Features
 
-Project Structure
+* ✅ **Console-Based Gameplay**: Full-featured terminal game with a 3x3 grid.
+* 👥 **Single and Multiplayer Modes**: Play against another human or a computer with simple AI.
+* 📊 **Real-Time Score Tracking**: Track wins, losses, and draws.
+* ⏱ **Move Timer**: Countdown for each move adds urgency.
+* 🔊 **Sound Effects**: Audio feedback for moves and results (if supported).
+* ⚠️ **Robust Error Handling**: Validates all user inputs and edge cases.
+* 🧠 **Basic AI Logic**: Computer opponent uses simple decision-making.
+* 📺 **Intuitive Text UI**: Clean, informative board display and status updates.
 
-Game Board Implementation
-Uses a 2D array to represent the 3x3 Tic Tac Toe board.
-Includes a function to visually display the board in the console.
+---
 
+## Technical Details
 
-Player and Computer Interaction
-Handles and validates player inputs for move selection.
-Alternates turns between Player 1, Player 2, or the computer opponent.
+* **Language**: C++
+* **Compiler**: GCC
+* **IDE**: Visual Studio Code / Code::Blocks
+* **Version Control**: Git
+* **Dependencies**: Standard C++ libraries (no external dependencies)
 
+---
 
-Win and Draw Logic
-Detects winning patterns (horizontal, vertical, diagonal).
-Identifies draw conditions when the board is full.
+## Project Structure
 
+```
+Team-Maverick---Tic-Tac-Toe-Game/
+├── main.cpp             # Main game logic
+├── board.cpp/.h         # Board rendering and interaction
+├── player.cpp/.h        # Player & computer move handling
+├── score.cpp/.h         # Score tracking and display
+├── sound.cpp/.h         # Sound effect handlers (optional)
+├── timer.cpp/.h         # Countdown timer implementation
+└── README.md            # Project documentation
+```
 
-User Experience
-Displays clear prompts, real-time updates, and game outcomes.
-Implements a countdown timer for each move to increase engagement.
-Includes sound feedback for enhanced immersion (where supported).
+---
 
+## Setup Instructions
 
-Error Handling
-Validates all user inputs to prevent invalid moves.
-Manages edge cases with appropriate user messages.
+### Prerequisites
 
+Ensure **GCC** is installed on your machine.
 
+### Installation
 
-Setup Instructions
+1. **Clone the Repository**:
 
-Clone the Repository:git clone https://github.com/hredhayxz/Team-Maverick---Tic-Tac-Toe-Game.git
+```bash
+git clone https://github.com/hredhayxz/Team-Maverick---Tic-Tac-Toe-Game.git
 cd Team-Maverick---Tic-Tac-Toe-Game
+```
 
+2. **Compile the Code**:
 
-Compile the Code:Ensure GCC is installed, then run:g++ -o tictactoe main.cpp
+```bash
+g++ -o tictactoe main.cpp
+```
 
+3. **Run the Game**:
 
-Run the Game:./tictactoe
+```bash
+./tictactoe
+```
 
+---
 
-Gameplay:
-Follow the on-screen prompts to enter moves (e.g., row and column numbers).
-In single-player mode, compete against the computer.
-Use the menu to restart or exit after each game.
+## Gameplay Instructions
 
+* 🎮 Follow on-screen prompts to enter moves (row and column).
+* 🤖 In single-player mode, compete against a basic computer AI.
+* 🔁 After each game, choose to restart or exit via menu.
 
+---
 
-Team Information
-Team Name: MaverickInstitution: Northern University Bangladesh, Department of Computer Science and Engineering (ECSE)Course: Software Development I (C++ Programming), Course Code: CSE 1290, Semester: 2nd, Section: D
-Team Members
+## Team Information
 
-Zahid Hasan (42240301951) - Project Lead
-Md Alhaz Mondal (42240301932) - Developer
-Hadiul Islam Hadi (42240302006) - Developer
-Md Altaf Mahmud (42240301998) - Developer
-Syfur Rahman Ruman (42240301969) - Tester
-Gobindo Saha (42240302006) - Documentation Writer
+**Team Name**: Maverick
+**Institution**: Northern University Bangladesh
+**Department**: Computer Science and Engineering (ECSE)
+**Course**: Software Development I (C++ Programming)
+**Course Code**: CSE 1290
+**Semester**: 2nd
+**Section**: D
 
-Learning Outcomes
-Through this project, the team developed the following skills:
+### Team Members
 
-Proficiency in C++ programming, including control structures, functions, and arrays.
-Modular code design using object-oriented principles and functions.
-Implementation of basic computer AI logic for the opponent.
-Debugging and troubleshooting techniques for robust code.
-Collaborative version control using Git.
-Designing clear and user-friendly console-based interfaces.
+* Zahid Hasan (42240301951) – Project Lead
+* Md Alhaz Mondal (42240301932) – Developer
+* Hadiul Islam Hadi (42240302006) – Developer
+* Md Altaf Mahmud (42240301998) – Developer
+* Syfur Rahman Ruman (42240301969) – Tester
+* Gobindo Saha (42240302006) – Documentation Writer
 
-Submission Components
+---
 
-Source Code: Well-documented C++ source files.
-Executable File: A compiled binary to run the game.
-Documentation:
-User Guide: Instructions for gameplay and setup.
-Code Comments: In-line comments explaining logic and design rationale.
-Technical Report: Overview of the development process and architecture.
+## Learning Outcomes
 
+* 💡 Mastered **C++ control structures**, **functions**, and **arrays**.
+* 🧩 Learned modular and object-oriented design.
+* 🖥 Developed a simple **computer AI**.
+* 🔍 Practiced debugging and error handling.
+* 🔄 Collaborated using **Git** version control.
+* 🧑‍💻 Designed an engaging text-based user interface.
 
+---
 
-Conclusion
-The Enhanced Console-Based Tic Tac Toe Game is a practical demonstration of C++ programming skills, blending fundamental coding concepts with interactive game design. This project reinforces key programming techniques such as control structures, functions, arrays, and error handling while introducing students to game logic and turn-based interactions. It serves as an engaging entry point into software development, delivering both educational value and an enjoyable user experience.
+## Submission Components
+
+* ✅ **Source Code**: Clean and well-commented C++ files.
+* ✅ **Executable**: Compiled game ready to run.
+* ✅ **Documentation**:
+
+  * 📘 *User Guide*: Setup and gameplay instructions.
+  * 🧾 *Code Comments*: Explaining logic and flow.
+  * 🧱 *Technical Report*: Design architecture and process summary.
+
+---
+
+## Conclusion
+
+The Enhanced Console-Based Tic Tac Toe Game demonstrates practical knowledge of **C++ programming**, combining core principles with interactive gameplay. The project reinforces concepts like loops, conditions, arrays, and error handling, while introducing the team to game design, AI logic, and collaborative development—making it a fun and educational achievement.
