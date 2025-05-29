@@ -104,7 +104,7 @@ g++ -o tictactoe main.cpp
 * Hadiul Islam Hadi (42240302006) – Developer
 * Md Altaf Mahmud (42240301998) – Developer
 * Syfur Rahman Ruman (42240301969) – Tester
-* Gobindo Saha (42240302006) – Documentation Writer
+* Gobindo Saha (42240302004) – Documentation Writer
 
 ---
 
